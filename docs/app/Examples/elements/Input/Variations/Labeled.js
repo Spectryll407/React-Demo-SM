@@ -5,9 +5,7 @@ export default class Labeled extends Component {
   render() {
     return (
       <Input className='labeled' placeholder='mysite.com'>
-        <div className='ui label'>
-          http://
-        </div>
+        <div className='ui label'>http://</div>
       </Input>
     );
   }
