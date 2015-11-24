@@ -20,7 +20,7 @@ export default class Statistics extends Component {
       'sd-statistics',
       'ui',
       this.props.className,
-      'statistic'
+      'statistics'
     );
     return (
       <div {...this.props} className={classes}>
