@@ -5,7 +5,7 @@ export default class SegmentLoadingExample extends Component {
   render() {
     return (
       <Segment className='loading'>
-        Pellentesque habitant morbi tristique senectus.
+        Loading content.
       </Segment>
     );
   }
