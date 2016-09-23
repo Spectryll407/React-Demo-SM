@@ -10,7 +10,7 @@ const LabelPointing = () => (
     <Divider />
 
     <Form.Field>
-      <Label pointing below>Please enter a value</Label>
+      <Label pointing='below'>Please enter a value</Label>
       <input type='text' placeholder='Last Name' />
     </Form.Field>
     <Divider />
@@ -22,8 +22,8 @@ const LabelPointing = () => (
     <Divider />
 
     <Form.Field inline>
-      <input type='password' placeholder='Password' />
       <Label pointing='right'>Your password must be 6 characters or more</Label>
+      <input type='password' placeholder='Password' />
     </Form.Field>
   </Form>
 )
